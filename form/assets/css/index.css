@@ -1,0 +1,55 @@
+.principal{
+    background-image: radial-gradient(#696968, #292929);
+    background-repeat: no-repeat;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario{
+    background-image: linear-gradient(#BFBFBF, #8C8C8C);
+    padding: 20px;
+    border-radius:10px ;
+    box-shadow: 0 4px 8p rgb(12, 12, 12);
+    width: 300px; 
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type="text"], [type="email"], [type="password"] {
+    width: 85%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000000 ;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="radio"] {
+   margin: 0px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D9D9D9;
+}
