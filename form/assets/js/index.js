@@ -11,7 +11,7 @@ function signup(event) {
         Swal.fire({
             title: 'cadastro realizado!',
             text: 'Seu cadastro foi realizado com sucesso!',
-            icon: 'sucess',
+            icon: 'success',
             confirmButtomText: 'OK'
         }).then(() => {
             setTimeout(() => {
